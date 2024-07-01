@@ -1,5 +1,69 @@
-template-repository (1.0-1) unstable; urgency=medium
+slurp (1.5.0-1) unstable; urgency=medium
 
-  * Initial release
+  * New upstream version
+  * Add version constraint for wayland-protocols dependency
+  * Bump Standards-Version to 4.6.2 (no changes needed)
+  * Bump years in d/copyright
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Birger Schacht <birger@debian.org>  Thu, 14 Dec 2023 14:36:48 +0100
+
+slurp (1.4.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump Standards-Version (no changes required)
+  * Update years in d/copyright
+  * Use gitmode in d/watch
+
+ -- Birger Schacht <birger@debian.org>  Mon, 05 Dec 2022 15:31:22 +0100
+
+slurp (1.3.2-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards-version (no changes required)
+
+ -- Birger Schacht <birger@debian.org>  Fri, 27 Aug 2021 18:23:27 +0200
+
+slurp (1.3.1-1) unstable; urgency=medium
+
+  * New upstream release
+
+ -- Birger Schacht <birger@debian.org>  Fri, 06 Nov 2020 16:15:38 +0100
+
+slurp (1.3.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * d/gitlab-ci.yml: remove file and use repository settings to
+    specify base pipeline configuration
+  * d/control:
+   + Update Maintainer address
+   + Update Vcs-* URLs
+   + Bump standards-version (no changes required)
+   + Add new build dependency libxkbcommon-dev to build deps
+   + Bump debhelper-compat version to 13 (no changes required)
+  * d/upstream:
+   + add bug tracking information to metadata
+   + add upstream signing key
+
+ -- Birger Schacht <birger@debian.org>  Fri, 16 Oct 2020 18:17:57 +0200
+
+slurp (1.2.0-1) unstable; urgency=medium
+
+  * New upstream release
+  * Bump standards version to 4.4.0
+  * Switch to debhelper-compat (and remove d/compat)
+  * d/gitlab-ci.yml: Drop custom config, rely on "Salsa CI Team"
+
+ -- Birger Schacht <birger@rantanplan.org>  Sun, 21 Jul 2019 21:08:37 +0200
+
+slurp (1.1.0-1) unstable; urgency=medium
+
+  * New upstream version
+  * Bump standards version
+
+ -- Birger Schacht <birger@rantanplan.org>  Sat, 02 Mar 2019 21:56:56 +0100
+
+slurp (1.0-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #915203)
+
+ -- Birger Schacht <birger@rantanplan.org>  Wed, 05 Dec 2018 15:08:12 +0100
